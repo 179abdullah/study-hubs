@@ -8,12 +8,12 @@
 
 @font-face {
     font-family: poppins;
-    src: url(font/Poppins/Poppins-Regular.ttf);
+    src: url(Poppins-Regular.ttf);
 }
 
 @font-face {
     font-family: regil;
-    src: url(font/rigel_star/Rigelstar.ttf);
+    src: url(Rigelstar.ttf);
 }
 
 .container {
@@ -67,7 +67,7 @@ img {
 
 /* banner */
 .banner_inner {
-    background-image: url(images/banner_kid.jpg);
+    background-image: url(banner_kid.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -130,7 +130,7 @@ img {
 
 @media only screen and (max-width:990px) {
     .banner_inner {
-        background-image: url(images/banner_mobile.jpg);
+        background-image: url(banner_mobile.jpg);
     }
 
     .nav_inner {
