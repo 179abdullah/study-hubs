@@ -139,12 +139,15 @@ img {
     font-size: clamp(0.875rem, 0.743rem + 0.4225vw, 1.25rem);
     line-height: normal;
     padding: 10px 16px;
+        position: relative;
+
 }
 
 .cta-buttons {
     display: flex;
     justify-content: center;
     gap: 30px;
+    
 }
 
 @media only screen and (max-width:990px) {
