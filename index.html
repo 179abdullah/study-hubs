@@ -441,10 +441,10 @@
             const name = document.getElementById("parentName").value.trim();
             const grade = document.getElementById("childGrade").value.trim();
             const time = document.getElementById("contactTime").value.trim();
-            const message = Lead Capture Form:\nName: ${name}\nGrade: ${grade}\nPreferred Time: ${time};
+            const message = `Lead Capture Form:\nName: ${name}\nGrade: ${grade}\nPreferred Time: ${time}`;
             const encoded = encodeURIComponent(message);
             const whatsappNumber = "923176984921";
-            window.open(https://wa.me/${whatsappNumber}?text=${encoded}, "_blank");
+            window.open(`https://wa.me/${whatsappNumber}?text=${encoded}`, "_blank");
         });
 
         // // Disable Right Click
