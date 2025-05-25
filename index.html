@@ -520,20 +520,20 @@
         document.addEventListener("contextmenu", e => e.preventDefault());
 
         // Disable Dev Tools Shortcuts
-        document.addEventListener("keydown", function (e) {
-            // F12
-            if (e.keyCode === 123) {
-                e.preventDefault();
-            }
-            // Ctrl+Shift+I/J/C/U
-            if (e.ctrlKey && e.shiftKey && ["I", "J", "C"].includes(e.key)) {
-                e.preventDefault();
-            }
-            // Ctrl+U
-            if (e.ctrlKey && e.key === "u") {
-                e.preventDefault();
-            }
-        });
+        // document.addEventListener("keydown", function (e) {
+        //     // F12
+        //     if (e.keyCode === 123) {
+        //         e.preventDefault();
+        //     }
+        //     // Ctrl+Shift+I/J/C/U
+        //     if (e.ctrlKey && e.shiftKey && ["I", "J", "C"].includes(e.key)) {
+        //         e.preventDefault();
+        //     }
+        //     // Ctrl+U
+        //     if (e.ctrlKey && e.key === "u") {
+        //         e.preventDefault();
+        //     }
+        // });
 
         // Accordion
         const accordionItems = document.querySelectorAll(".accordion_item");
