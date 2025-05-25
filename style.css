@@ -324,6 +324,10 @@ img {
 }
 
 .form_inner form button {
+     display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
     background-color: #000;
     color: white;
     border: none;
